@@ -3,7 +3,7 @@ pipeline {
     environment {
         TF_VAR_gcp_project = "qwiklabs-gcp-00-c88a1c7421a4"
         TF_VAR_bucket = "tf-remote-state-student_02_1fc51c07f93a-11221-27476"
-        REPOSITORY = "https://github.com/geoffbarr-cpu/cicd02-starter"
+        REPOSITORY = "https://github.com/geoffbarr-cpu/sample-awx-project.git"
         TF_VAR_pubkey_path = "${WORKSPACE}/ansible_key.pub"
     }
     stages {
